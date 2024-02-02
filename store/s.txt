@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Store</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="./style.css">
+  <script src="./index.js"></script>
+  <script src="https://kit.fontawesome.com/3c20639edf.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="max-w-7xl m-auto">
+  <header class="h-20 border-b mt-3 bg-white">
+    <div class="flex justify-between items-center p-2 mx-4">
+      <div>
+        <span id="bs" class="text-3xl ml-4">brandshark</span>
+      </div>
+      <nav>
+        <span class="p-3 text-lg hover:bg-grey-100 cursor-pointer">Services<i class="fa-thin fa-plus p-1"></i>
+        
+        </span>
+        <span class="p-3 text-lg hover:bg-grey-100 cursor-pointer">About</span>
+        <span class="p-3 text-lg hover:bg-grey-100 cursor-pointer">Blogs</span>
+        <span class="p-3 text-lg hover:bg-grey-100 cursor-pointer">Work</span>
+        <span class="p-3 text-lg hover:bg-grey-100 cursor-pointer">Careers</span>
+        <span class="p-3 text-lg hover:bg-grey-100 cursor-pointer"><i class="fa-solid fa-phone  p-2"></i>(91)-7823456789</span>
+        <span class="border border-purple-300 bg-purple-500 ml-9  p-2 text-lg rounded-xl hover:bg-grey-100 cursor-pointer">Digital Product</span>
+      </nav>
+    </div>
+  </header>
+  <main></main>
+  <footer></footer>
+  </div>
+</body>
+</html>
